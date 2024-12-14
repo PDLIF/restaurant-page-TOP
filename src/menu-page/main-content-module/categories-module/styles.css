@@ -1,0 +1,35 @@
+.categories-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.categories-heading {
+    width: 1000px;
+    font-size: var(--h4);
+    font-weight: 300;
+}
+
+.category-heading {
+    font-size: var(--h5);
+    font-weight: 400;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1000px;
+} 
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+

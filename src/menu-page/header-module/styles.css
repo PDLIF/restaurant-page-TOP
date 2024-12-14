@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 70px 0 70px;
+    margin-bottom: 4rem;
+}
+
+.header-logo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .logo-big {
+    font-family: 'Okaluera';
+    font-size: 50px;
+    height: .85em;
+}
+
+.header .logo-small {
+    font-weight: lighter;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 137px;
+    justify-content: center;
+}
+
+.nav-btn {
+    font-size: var(--p);
+    font-weight: 500;
+}
+
+.current-btn a {
+    font-weight: bold;
+}
+
+.current-btn::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: rgb(232, 232, 232);  /* Color of the underline */
+    width: 100%;
+    margin-top: 1px;
+}
+
+.stroked-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-btn-stroke {
+    border: solid 3px rgb(232, 232, 232);
+    height: 100px;
+    padding: 0.25em 1em .5em 1em;
+}
+
+.nav-btn-stroke:hover {
+    border: solid 3px rgb(232, 232, 232);
+    height: 100px;
+    padding: 0.25em 1em .5em 1em;
+    color: black;
+    background-color: rgb(232, 232, 232);
+}
+

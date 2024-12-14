@@ -1,0 +1,13 @@
+.main-content-contacts-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 152px;
+    margin-bottom: 4rem;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

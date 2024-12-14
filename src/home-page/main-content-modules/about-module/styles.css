@@ -1,0 +1,95 @@
+.about-section {
+    background-image: url('../../../assets/images/home/about-section-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1025px;
+
+    padding: 70px 15px;
+}
+
+.about-inner-section {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+}
+
+.atmosphere {
+    padding-left: 20px;
+    margin-bottom: 75px;
+}
+
+.kitchen-and-menu {
+    padding-right: 20px;
+    margin-bottom: 1em;
+}
+
+/* .images {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+} */
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 1em;
+}
+
+.kitchen-and-menu-arrows {
+    justify-content: end;
+}
+
+.arrow {
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.arrow:active {
+    transform: scale(0.9);
+}
+
+.about-reserve-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.about-reserve-btn a {
+    border: 5px solid #ffff;
+    font-size: var(--h4);
+    font-weight: 600;
+    padding: 0 .5em .2em .5em;
+    margin-right: 20px;
+}
+
+.about-reserve-btn a:hover {
+    background-color: #ffff;
+    color: black;
+}
+
+
+
+
+
+
+.atmosphere-text, .kitchen-and-menu-text {
+    width: 415px;
+}
+
+.swiper {   
+    width: 955px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    cursor: pointer;
+}
+
+.swiper-slide:active {
+    cursor: grabbing;
+}

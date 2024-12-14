@@ -1,0 +1,11 @@
+.contact-heading {
+    font-size: var(--h6);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}

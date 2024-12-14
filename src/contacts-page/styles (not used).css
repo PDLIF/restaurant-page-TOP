@@ -1,0 +1,285 @@
+@import url(https://db.onlinewebfonts.com/c/289f53ea52bf72201827dbba88466dba?family=Okaluera);
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-ExtraBold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Okaluera";
+    src: url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.eot");
+    src: url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.svg#Okaluera")format("svg");
+}
+
+:root {
+    --p: 16px;
+    --h6: 21px;
+    --h5: 30px;
+    --h4: 42px;
+    --h3: 59px;
+    --h2: 84px;
+    --h1: 119px;
+    --cta-logo-cize: 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cygre', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+}
+
+img {
+    width: 470px;
+    height: 313px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.h4 {
+    font-size: var(--h4);
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.h6 {
+    margin-bottom:.5em;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 70px 0 70px;
+    margin-bottom: 4rem;
+}
+
+.header-logo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .logo-big {
+    font-family: 'Okaluera';
+    font-size: 50px;
+    height: .85em;
+}
+
+.header .logo-small {
+    font-weight: lighter;
+}
+
+main {
+    background-image: url('../assets/images/menu/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    color: rgb(232, 232, 232);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 137px;
+    justify-content: center;
+}
+
+.nav-btn {
+    font-size: var(--p);
+    font-weight: 500;
+}
+
+.current-btn a {
+    font-weight: bold;
+}
+
+.current-btn::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: rgb(232, 232, 232);  /* Color of the underline */
+    width: 100%;
+    margin-top: 1px;
+}
+
+.stroked-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-btn-stroke {
+    border: solid 3px rgb(232, 232, 232);
+    height: 100px;
+    padding: 0.25em 1em .5em 1em;
+}
+
+.nav-btn-stroke:hover {
+    border: solid 3px rgb(232, 232, 232);
+    height: 100px;
+    padding: 0.25em 1em .5em 1em;
+    color: black;
+    background-color: rgb(232, 232, 232);
+}
+
+
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 152px;
+    margin-bottom: 4rem;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-heading {
+    font-size: var(--h6);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.feedback-section {
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #171514;
+    border: 3px solid #636363;
+    padding: 20px 30px 30px 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 7px 10px;
+    font-size: var(--p);
+    border: 1px solid #636363;
+    background-color: #232323;
+    color: white;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #ffff;
+}
+
+textarea {
+    resize:none;
+}
+
+.submit-btn {
+    width: 40%;
+    padding: 10px;
+    margin-top: .5rem;
+    background-color: #232323;
+    border: 1px solid #636363;
+    color: white;
+    font-family: 'Cygre', sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    color: black;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+    background-color: black;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo-big {
+    font-family: 'Okaluera';
+    font-size: 50px;
+    height: .85em;
+}
+
+.footer .logo-small {
+    font-weight: lighter;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+

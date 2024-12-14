@@ -1,0 +1,281 @@
+@import url(https://db.onlinewebfonts.com/c/289f53ea52bf72201827dbba88466dba?family=Okaluera);
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cygre';
+    src: url('../assets/fonts/Cygre/Cygre-ExtraBold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Okaluera";
+    src: url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.eot");
+    src: url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/289f53ea52bf72201827dbba88466dba.svg#Okaluera")format("svg");
+}
+
+:root {
+    --p: 16px;
+    --h6: 21px;
+    --h5: 30px;
+    --h4: 42px;
+    --h3: 59px;
+    --h2: 84px;
+    --h1: 119px;
+    --cta-logo-cize: 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cygre', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+}
+
+img {
+    width: 470px;
+    height: 313px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.h4 {
+    font-size: var(--h4);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.h6 {
+    margin-bottom:.5em;
+    font-weight: 600;
+}
+
+.hero-section {
+    background-image: url('../assets/images/home/cta-pic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(232, 232, 232);
+    text-align: center;
+}
+
+.navbar-container {
+    padding: 2em 0 0 0;
+    margin-bottom: 8rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+}
+
+.nav-btn {
+    font-size: var(--p);
+    font-weight: 500;
+}
+
+.current-btn::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: rgb(232, 232, 232);  /* Color of the underline */
+    width: 100%;
+    margin-top: 1px;
+}
+
+
+.nav-btn-stroke {
+    border: solid 3px rgb(232, 232, 232);
+    height: 100px;
+    padding: 0.25em 1em .5em 1em;
+}
+
+.nav-btn-stroke:hover {
+    border: solid 3px rgb(232, 232, 232);
+    height: 100px;
+    padding: 0.25em 1em .5em 1em;
+    color: black;
+    background-color: rgb(232, 232, 232);
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5em;
+    height: 100vh;
+}
+
+.cta .logo-big {
+    font-family: 'Okaluera';
+    font-size: var(--cta-logo-cize);
+    height: .8em;
+    word-spacing: -10px;
+}
+
+.cta .logo-small {
+    font-size: var(--h4);
+    font-weight: lighter;
+}
+
+.cta-reserve-btn a  {
+    display: inline-block;
+    font-size: var(--h3);
+    border: 7px solid rgb(232, 232, 232);
+    padding: 0 .5em .2em .5em;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.cta-reserve-btn a:hover {
+    display: inline-block;
+    font-size: var(--h3);
+    border: 7px solid rgb(232, 232, 232);
+    padding: 0 .5em .2em .5em;
+    background-color: rgb(232, 232, 232);
+    color: black;
+    font-weight: 600;
+}
+
+.about-section {
+    background-image: url('../assets/images/home/about-section-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1025px;
+
+    padding: 70px 15px;
+}
+
+.about-inner-section {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+}
+
+.atmosphere {
+    padding-left: 20px;
+    margin-bottom: 75px;
+}
+
+.kitchen-and-menu {
+    padding-right: 20px;
+    margin-bottom: 1em;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 1em;
+}
+
+.kitchen-and-menu-arrows {
+    justify-content: end;
+}
+
+.arrow {
+    width: 35px;
+    height: auto;
+}
+
+.arrow-2 {
+    transform: rotate(180deg);
+}
+
+.about-reserve-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.about-reserve-btn a {
+    border: 5px solid #ffff;
+    font-size: var(--h4);
+    font-weight: 600;
+    padding: 0 .5em .2em .5em;
+    margin-right: 20px;
+}
+
+.about-reserve-btn a:hover {
+    background-color: #ffff;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+    background-color: black;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo-big {
+    font-family: 'Okaluera';
+    font-size: 50px;
+    height: .85em;
+}
+
+.footer .logo-small {
+    font-weight: lighter;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
