@@ -6,7 +6,7 @@ This project is a simple, modular restaurant website created using JavaScript an
 
 ## Live Preview
 
-Check out the live version of the project here: [Live Preview](https://pdlif.github.io/restaurant-page-TOP/#)
+Check out the live version of the project here:  [Live Preview](https://pdlif.github.io/restaurant-page-TOP/#)
 
 
 
